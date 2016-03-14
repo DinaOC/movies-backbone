@@ -1,0 +1,63 @@
+body {
+  background-color: #fea285;
+
+}
+
+article {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin-left: 7%;
+}
+
+h1, h3 {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  padding: 2px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+h1 {
+  font-size: 37px;
+  letter-spacing: 1px;
+}
+h2 {
+font-size: 24px;
+font-family: 'Rokkitt', serif;
+
+}
+
+.bottom {
+  font-size: 27px;
+  margin-top: 80px;
+
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  margin-top: 30px;
+
+}
+p {
+  width: 100%;
+  font-size: 17px;
+  font-family: 'Rokkitt', serif;
+}
+
+.delete {
+  width: 130px;
+  height: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #fd7645;
+  padding: 1px;
+}
+
+.ratings {
+  font-size: 20px;
+}
