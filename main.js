@@ -9,6 +9,8 @@ templates.movies = [
 "<button class='delete'>Delete</button>",
 "</article>"
 ].join('');
+
+
 $(document).ready(function(){
 page.init();
 
@@ -33,7 +35,7 @@ $('.add-new').on('click',function(event){
     title: $('input[name="title"]').val(),
     genre: $('input[name="genre"]').val(),
     image: $('input[name="image"]').val(),
-    desc: $('input[name="desc"]').val(),
+    desc: $('textarea[name="desc"]').val(),
 
   };
   var myMovie = new MoviesModel(newMovie);

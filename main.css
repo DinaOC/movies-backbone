@@ -1,13 +1,13 @@
 body {
-  background-color: #fea285;
+  background-color: #af6f84;
 
 }
 
 article {
   display: inline-block;
   vertical-align: top;
-  width: 25%;
-  margin-left: 7%;
+  width: 23%;
+  margin-left: 9.5%;
 }
 
 h1, h3 {
@@ -33,6 +33,7 @@ font-family: 'Rokkitt', serif;
 .bottom {
   font-size: 27px;
   margin-top: 80px;
+  margin-left: 3%;
 
 }
 
@@ -53,11 +54,36 @@ p {
   height: 30px;
   font-size: 17px;
   font-weight: bold;
-  border-radius: 10px;
-  background-color: #fd7645;
+  background-color: #d3b0bc;
   padding: 1px;
 }
 
 .ratings {
   font-size: 20px;
+}
+
+input {
+  width:20.4%;
+  height: 25px;
+  display: block;
+  margin-left: 42%;
+  margin-bottom: 10px;
+  font-size: 15px;
+  border: 3px solid #764253;
+}
+
+textarea {
+  margin-left: 42%;
+  font-size: 15px;
+  border: 3px solid #764253;
+}
+
+.add-new button {
+  margin-left: 47%;
+  width:130px;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 15px;
+  border: 3px solid #764253;
+  background-color: white;
 }
